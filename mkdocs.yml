@@ -1,0 +1,56 @@
+site_name: Azul Valente
+site_description: Technical Writing Portfolio
+site_url: https://your-domain.com
+
+theme:
+  name: material
+
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.action.edit
+
+  font:
+    text: Inter
+    code: Roboto Mono
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+  favicon: assets/favicon.png
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/azulvalente/
+    - icon: fontawesome/brands/github
+      link: https://github.com/azulvalente/
+    - icon: fontawesome/solid/envelope
+      link: mailto:mazulvalente@gmail.com
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Writing Samples:
+      - How-To Guides: how-to/install-loom-on-chrome.md
+      - Reference: reference/geo-api.md
+      - Technical Documentation: technical-writing.md
+  
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences

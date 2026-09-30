@@ -1,0 +1,15 @@
+:root {
+  --md-primary-fg-color: #dec430;
+  --md-primary-fg-color--light: #e6d15c;
+  --md-primary-fg-color--dark: #b8a326;
+  --md-accent-fg-color: #6B6B6B;
+  --md-typeset-a-color: #6B6B6B;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+.md-main {
+  background-color: #FFFFFF;
+}
