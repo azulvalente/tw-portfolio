@@ -1,15 +1,22 @@
+/* Shared: brand yellow */
 :root {
   --md-primary-fg-color: #dec430;
   --md-primary-fg-color--light: #e6d15c;
   --md-primary-fg-color--dark: #b8a326;
+  --md-primary-bg-color: #1a1a1a;           /* dark text on the yellow header */
+  --md-primary-bg-color--light: #333333;
+}
+
+/* Light mode */
+[data-md-color-scheme="default"] {
   --md-accent-fg-color: #6B6B6B;
   --md-typeset-a-color: #6B6B6B;
 }
 
-body {
-  background-color: #FFFFFF;
-}
-
-.md-main {
-  background-color: #FFFFFF;
+/* Dark mode */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #121212;           /* near-black */
+  --md-code-bg-color: #1e1e1e;
+  --md-accent-fg-color: #e6d15c;            /* light yellow, readable on dark */
+  --md-typeset-a-color: #e6d15c;
 }
