@@ -45,7 +45,9 @@ nav:
   - Home: index.md
   - About: about.md
   - Writing Samples:
-      - How-To Guides: how-to/install-loom-on-chrome.md
+      - How-To Guides:
+          - Install Loom on Chrome: how-to/install-loom-on-chrome.md
+          - Translate a bilingual Excel file in Trados Studio: how-to/how-to-work-with-bilingual-excel-in-trados.md
       - Reference: reference/geo-api.md
       - Technical Documentation: technical-writing.md
   
